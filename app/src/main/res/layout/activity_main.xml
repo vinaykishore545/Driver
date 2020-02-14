@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+   <EditText
+       android:id="@+id/id"
+       android:hint="user_id"
+       android:background="@null"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:importantForAutofill="no"
+       tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/pick_up"
+        android:hint="pick_up"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,TextFields" />
+    <EditText
+        android:id="@+id/drop"
+        android:hint="drop"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/service_id"
+        android:hint="serive_id"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/date"
+        android:hint="date"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,TextFields" />
+    <EditText
+        android:id="@+id/time"
+        android:hint="time"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/duration"
+        android:hint="duration"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/car_name"
+        android:hint="car_name"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/car_number"
+        android:hint="car_number"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/car_type"
+        android:hint="car_type"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/car_loction"
+        android:hint="car_location"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/price"
+        android:hint="price"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="HardcodedText,TextFields"
+        android:importantForAutofill="no" />
+ <Button
+     android:id="@+id/butb"
+     android:text="ok"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     tools:ignore="HardcodedText" />
+ </LinearLayout>
+
+</ScrollView>
